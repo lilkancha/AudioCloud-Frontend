@@ -27,7 +27,7 @@ const PlayerContextProvider = ({ children }) => {
 
   const [searchTerm, setSearchTerm] = useState("");
 
-  const url = "https://audio-cloud-backend-jov6gprjs-eklabya-robin-chhetris-projects.vercel.app";
+  const url = "http://localhost:4000";
 
 
   const getSongsData = async () => {

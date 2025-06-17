@@ -13,7 +13,7 @@ const loadRazorpayScript = () =>
     script.onerror = () => resolve(false);
     document.body.appendChild(script);
   });
-const url = 'https://audio-cloud-backend-jov6gprjs-eklabya-robin-chhetris-projects.vercel.app';
+const url = 'http://localhost:4000';
 const PremiumPage = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);

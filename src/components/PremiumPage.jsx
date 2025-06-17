@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { url } from "../../../audiocloud-admin/src/App";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebase";
 import { toast, ToastContainer } from "react-toastify";
@@ -14,7 +13,7 @@ const loadRazorpayScript = () =>
     script.onerror = () => resolve(false);
     document.body.appendChild(script);
   });
-
+const url = 'http://localhost:4000';
 const PremiumPage = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);

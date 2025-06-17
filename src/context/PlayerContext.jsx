@@ -27,7 +27,7 @@ const PlayerContextProvider = ({ children }) => {
 
   const [searchTerm, setSearchTerm] = useState("");
 
-  const url = "http://localhost:4000";
+  const url = "https://audio-cloud-backend.vercel.app/";
 
 
   const getSongsData = async () => {

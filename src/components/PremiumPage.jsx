@@ -13,7 +13,7 @@ const loadRazorpayScript = () =>
     script.onerror = () => resolve(false);
     document.body.appendChild(script);
   });
-const url = 'http://localhost:4000';
+const url = 'https://audio-cloud-backend.vercel.app/';
 const PremiumPage = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);

@@ -198,34 +198,6 @@ const Player = () => {
 
         {/* Right: utility icons including volume and zoom */}
         <div className="hidden lg:flex items-center gap-2 opacity-75">
-          <button
-            type="button"
-            className="p-0 focus:outline-none"
-            aria-label="Plays"
-          >
-            <img className="w-4" src={assets.plays_icon} alt="plays" />
-          </button>
-          <button
-            type="button"
-            className="p-0 focus:outline-none"
-            aria-label="Microphone"
-          >
-            <img className="w-4" src={assets.mic_icon} alt="mic" />
-          </button>
-          <button
-            type="button"
-            className="p-0 focus:outline-none"
-            aria-label="Queue"
-          >
-            <img className="w-4" src={assets.queue_icon} alt="queue" />
-          </button>
-          <button
-            type="button"
-            className="p-0 focus:outline-none"
-            aria-label="Speaker"
-          >
-            <img className="w-4" src={assets.speaker_icon} alt="speaker" />
-          </button>
 
           {/* Volume icon + always-visible slider */}
           <div
@@ -272,14 +244,6 @@ const Player = () => {
               src={assets.zoom_icon}
               alt="expand"
             />
-          </button>
-
-          <button
-            type="button"
-            className="p-0 focus:outline-none"
-            aria-label="Mini Player"
-          >
-            <img className="w-4" src={assets.mini_player_icon} alt="mini-player" />
           </button>
         </div>
       </div>
